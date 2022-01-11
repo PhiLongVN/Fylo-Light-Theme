@@ -1,0 +1,158 @@
+@media screen and (max-width: 767.98px) {
+  .head-menu {
+    gap: 1rem;
+  }
+  /* ========================================================================== */
+  /*                                    .SEC1                                   */
+  /* ========================================================================== */
+
+  .sec1 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  // .text-title
+
+  .text-title {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-weight: 400;
+    }
+  }
+
+  .text1-email {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+    }
+
+    button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  /* ========================================================================== */
+  /*                                    .SEC2                                   */
+  /* ========================================================================== */
+  .sec2 {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+
+  //   .sec2-text
+  .text-title {
+    span {
+      margin: auto;
+    }
+  }
+
+  .text-info {
+    margin: auto;
+  }
+
+  /* ========================================================================== */
+  /*                                    .SEC3                                   */
+  /* ========================================================================== */
+  .sec3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  //   .sec3-title
+  .sec3-title {
+    align-items: center;
+  }
+
+  // .sec3-email
+  .sec3-email {
+    width: 70%;
+    gap: 1rem;
+
+    span {
+      width: 100%;
+      top: 110%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    button {
+      width: 100%;
+      min-width: unset;
+    }
+  }
+
+  /* ========================================================================== */
+  /*                                    .FOOT                                   */
+  /* ========================================================================== */
+  .foot-wrapper {
+    padding-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+
+    // 2.wrap-about
+    .wrap-about {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 3rem;
+    }
+
+    .wrap-icon {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 499.98px) {
+  .head {
+    padding: 2rem 1rem;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 374.98px) {
+  .head-logo {
+    min-width: 50px;
+    min-height: 20px;
+
+    max-width: 100px;
+    max-height: 30px;
+  }
+  .head-menu {
+    gap: 0, 0.5rem;
+
+    a {
+      font-size: 0.8rem;
+      min-width: 45px;
+    }
+  }
+
+  .sec1 {
+    padding: 2rem 1rem;
+    padding-bottom: 13rem;
+  }
+  .sec2 {
+    padding: 2rem 1rem;
+  }
+  .sec3 {
+    padding: 2rem 1rem;
+    padding-bottom: 5rem;
+  }
+
+  .sec3-email {
+    width: 100%;
+    gap: 1rem;
+  }
+  .foot {
+    padding: 2rem 2rem;
+  }
+}
